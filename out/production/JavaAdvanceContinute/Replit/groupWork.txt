@@ -1,0 +1,18 @@
+1. Type of variable  // Phiny
+2. Constructor //Sokhara
+3. Super & this key word
+4. Inheritance
+5. Overloading //Gigi
+6. Overriding  // Pawel
+7. Polymorphism //Tolga
+8. Final keyword //llonaK
+9. Abstraction
+
+Zoom meeting
+// practice day
+Tue 10 pm (est) After Class
+llonaK , Tolga , Gigi , Phiny
+
+// record day
+Wed 10 pm (est) After Class
+llonaK , Tolga , Gigi , Phiny , Sokhara

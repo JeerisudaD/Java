@@ -1,0 +1,162 @@
+//class 21
+
+Write program: userClass  that has a constructor that initializes instance variable name and mobile number.
+Create a subclass  userInfo that will have user address variable and it also being initialized through constructor call.
+Print users name, mobile number and address in userDetails method. Test your code.
+---------
+Write program: Shape class has a constructor that takes the radius and has a subclass as  circle class.
+In circle class create a method to calculate the area of circle. Test your code
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//class 22
+Create 1 class in which create a methods that will calculate the area (volume in case of box) of
+Rectangle
+Square
+Box
+Create a class named 'Programming'. While creating an object of the class, if nothing is passed to it,
+then the message "I love programming languages" should be printed. If some String is passed to it,
+then in place of "programming languages" the value variable should be printed.
+Example, if we pass "Java", then "I love Java" should be printed.
+-----------
+Create 1 class with a static method that has 3 overloaded forms.
+Then call each overloaded method with specific arguments and observe result.
+------------
+Create 1 class with a private method that has 3 overloaded forms.
+Then call each overloaded method with specific arguments and observe result.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//class 23
+Create a class 'Degree' having a method 'getPrerequisite' that prints ""To get a degree you need high school diploma"".
+Class 'Degree' has 2 subclasses namely 'Bachelors' and Masters’. In Masters class override method 'getPrerequisite'.
+Call the method by creating an object of each of the three classes.
+----------------
+Create a class CreditCard and define variable balance and interest.
+Create an instance method that will calculate interest based on the given balance.
+Create 2 subclasses: Visa and AX. In AX class override method calculate interest.
+Call the method by creating an object of each of the three classes.
+----------------
+Create a Class Student that will have 3 subclasses as SyntaxStudent, CollegeStudent, SchoolStudent.
+Define common behavior within parent class and override some of the methods in child classes
+Define some methods specific to child classes
+Write example of achieving run time polymorphism
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//class 24
+Create a class File that will have the following behaviors: open, edit, close.
+Edit and close are implemented method while open is an abstract.
+-------------------
+Create 3 subclasses: JavaFile, WordFile, PdfFile that will provide specific implementation of
+open behaviour: Example: to open .java file we need notepad++ or sublime text,
+to open .doc file we need Microsoft word to be installed etc
+-------------------
+Create a Class Computer that will have 4 subclasses as Apple, Lenovo, HP, Dell.
+Define common behavior within and some fields in parent class and override some of the methods in child classes
+Define some methods specific to child classes
+Create objects of child classes and store them into array. Loop through each object and execute available methods.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//class 25
+Create a WebDriver Interface that will have the following unimplemented behaviour:
+openBrowser(), closeBrowser(), maximizeWindow(), findElement().
+Create 2 classes that implements WebDriver interface: ChromeDriver and FirefoxDriver.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//class 27
+Create an ArrayList that will store 5 names into it.
+Find out whether the given ArrayList is empty or not?
+Check whether the specific name is present in an ArrayList or not?
+Find the size of your arrayList and print all values from that
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//HW_class 28
+Create an arraylist of cars and retrieve all the values using 3 different ways.
+Create an arrayList of words. Remove every word that ends with “e”.
+Create an arrayList of drinks. If any drink has letter “a” or “e” replace it with water.
+Create an arrayList of even numbers from 1 to 500. Remove any number that is divisible by 5 from that arrayList.
+
+-----in class 29 task1----------------
+Create a class Insurance that will have an attribute as insuranceName and unimplemented behaviour as getQuote
+and cancelInsurance. Create 3 subclasses Car, Pet, Health.
+- Car class has it’s own attribute as carModel
+- and Class Pet has petType attribute.
+Create 3 objects of the sub classes and store them in ArrayList.
+Using for loop/advanced for loop/ iterator access all methods of the class.
+
+-----in class 29 task5-----------------
+Create a Card class that will have implemented  and unimplemented methods and a constructor
+that will initializes credit card type.  Create 3 subclasses of a Card card.
+Create 3 objects of different card and store them into LinkedList.
+Using for loop/advanced for loop/ iterator access all methods of the class.
+
+-----in class 29 task2-----------------
+How can you remove all duplicates from ArrayList?
+List<String> aList=new ArrayList<>();
+aList.add("John");
+aList.add("Jane");
+aList.add("James");
+aList.add("Jasmine");
+aList.add("Jane");
+aList.add("James");
+
+-----in class 29 task3----------------
+Create a Set collection in which you need to add names of the countries.
+In this set we want all objects to be sorted in alphabetical order.
+Using 2 different ways retrieve all elements from set.
+
+
+Create a Set of cities in which you want to make sure that insertion order is maintained.
+Then remove any city that starts with “A”;
+
+-----in class 29 task4----------------
+Create a Set collection that will hold Objects of Student Type.
+In this set we do not care about the insertion order.
+Each student object should have name and studentID. Display name of each student.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// class30
+
+-----in class 30 task1----------------
+Create a map of a building. Store floor number and it is associated company name. (Example: 1= Google, 2=Syntax etc..). Insert 7 entries with duplicate keys and values.
+Check how many entries you have?
+Update company on a 4th floor
+Remove company on the 7th floor
+Print your map
+
+-----in class 30 task2---------------
+Create a map of countries with its capital that will store countries in alphabetical order.
+Print all keys and values from a country map using for each loop and iterator.
+Print all values from a country map using for each loop and iterator.
+
+-----in class 30 task3---------------
+Create a map of Best Buy store. Place
+item id and item name into it. Example (7664847 = Printer, 7879885= TV etc )
+Retrieve all keys and values from a Best Buy map using EntrySet.
+
+-----in class 30 task4---------------
+Create a Person class with following private fields: name, lastName, age, salary.
+Variables should be initialized through constructor.
+Inside the class also create a method to print user details.
+In Test Class create a Map that will store key in ascending order. In that map store personId and a Person Object. Print each object details.
+
+
+Create a Map that will store Employee name and salary. Write a logic to retrieve an employee who gets the highest salary. Output should be in the below format
+John Smith=$100000
+2:47
+Create the collection that will store single uniques Objects of a String type in which order is preserved.
+Write a logic to concatenate all string from the collection.
+Create a collection of integers in which you can keep duplicates.
+Write a logic to find sum of all integers
+
+
+Create a property file to store following configurations:
+browser=chrome
+url=https://facebook.com
+username
+password

@@ -1,0 +1,22 @@
+Create an arraylist of cars and retrieve all the values using 3 different ways.
+Create an arrayList of words. Remove every word that ends with “e”.
+Create an arrayList of drinks. If any drink has letter “a” or “e” replace it with water.
+Create an arrayList of even numbers from 1 to 500. Remove any number that is divisible by 5 from that arrayLis
+
+Create a class Insurance that will have an attribute as insuranceName and unimplemented behaviour as getQuote and cancelInsurance. Create 3 subclasses Car, Pet, Health. Car class has it’s own attribute as carModel and Class Pet has petType attribute. Create 3 objects of the sub classes and store them in ArrayList. Using for loop/advanced for loop/ iterator access all methods of the class.
+Create a Card class that will have implemented  and unimplemented methods and a constructor that will initializes credit card type.  Create 3 subclasses of a Card card. Create 3 objects of different card and store them into LinkedList. Using for loop/advanced for loop/ iterator access all methods of the class.
+
+
+
+How can you remove all duplicates from ArrayList?
+List<String> aList=new ArrayList<>();
+aList.add("John");
+aList.add("Jane");
+aList.add("James");
+aList.add("Jasmine");
+aList.add("Jane");
+aList.add("James");
+2:17
+Create a Set collection in which you need to add names of the countries. In this set we want all objects to be sorted in alphabetical order. Using 2 different ways retrieve all elements from set.
+Create a Set of cities in which you want to make sure that insertion order is maintained. Then remove any city that starts with “A”;
+Create a Set collection that will hold Objects of Student Type. In this set we do not care about the insertion order. Each student object should have name and studentID. Display name of each student.
