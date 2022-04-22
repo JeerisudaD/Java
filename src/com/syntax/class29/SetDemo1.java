@@ -15,15 +15,15 @@ public class SetDemo1 {
         arrayList.add("CC");
 
         // convert from arraylist to linkHashset
-        LinkedHashSet<String> linkHashsSet = new LinkedHashSet<>(arrayList);
-        System.out.println(linkHashsSet);
+        LinkedHashSet<String> linkHashSet = new LinkedHashSet<>(arrayList);
+        System.out.println(linkHashSet);
 
         //Convert to remove duplicate
         TreeSet<String > treeSet = new TreeSet<>(arrayList);
         System.out.println(treeSet);
 
         arrayList.clear();//removing all the original elements
-        arrayList.addAll(linkHashsSet);//add all the unique with the insertion order.
+        arrayList.addAll(linkHashSet);//add all the unique with the insertion order.
         System.out.println("Array");
         System.out.println(arrayList);
 

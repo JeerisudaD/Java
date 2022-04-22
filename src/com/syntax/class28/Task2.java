@@ -14,7 +14,7 @@ public class Task2 {
             words.add("duplicate");
             words.add("cake");
 
-        words.removeIf(s -> s.toLowerCase().endsWith("e")); //advance check name?
+        words.removeIf(s -> s.toLowerCase().endsWith("e")); //advance check name? lamda
         System.out.println(words);
 
 

@@ -11,6 +11,7 @@ public class CollectionDemo1 {
         countries.add("Korean");//3
         countries.add("Turkey");//4
         countries.add("China");//5
+
         System.out.println(countries.get(2));// get(index) if we know which element we want to call
         //System.out.println(countries.get(-1));// get error
         //System.out.println(countries.get(6));//out of bound

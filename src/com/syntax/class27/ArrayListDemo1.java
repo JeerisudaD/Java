@@ -13,5 +13,8 @@ public class ArrayListDemo1 {
 
         String name=new String("hakan");
         String name3="Hakan";
+
+
+
     }
 }

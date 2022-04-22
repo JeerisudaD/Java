@@ -3,26 +3,18 @@ package Replit;
 import java.util.*;
 
 class Main {
-    public static void main(String[] args) {
-        //step1
-        List<Map<String, Object>> dataList = new ArrayList<>();
-        //step 2
-        Map<String, Object> appleMap = new LinkedHashMap<>();
-        appleMap.put("Items", "Apple");
-        appleMap.put("Price", "20.00");
-        appleMap.put("Quantity", "10");
-        //step 3
-        dataList.add(appleMap);
-        //step 4
-        Map<String, Object> orangeMap = new LinkedHashMap<>();
-        orangeMap.put("Items", "Orange");
-        orangeMap.put("Price", "21.99");
-        orangeMap.put("Quantity", "10");
-        //step 5
-        dataList.add(orangeMap);
-        //System.out.println(dataList);
-        //step 6
-
+    public static void main (String[] args) {
+        try {
+            int[] a = {1};
+            System.out.println(a[0]);
+        } catch (ArrayIndexOutOfBoundsException e){
+            System.out.print(e.getClass());
+                    e.printStackTrace();
+            ;
+        }
+StringBuilder sb1 = new StringBuilder("hello");
+        sb1.append("world");
+        System.out.println(sb1);
     }
 }
 

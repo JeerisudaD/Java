@@ -20,7 +20,7 @@ public class ArrayListDemo6 {
         list2.add("Apple");
         list2.add("Orange");
         list2.add("Banana");
-        // list2.add("Pillow");
+        list2.add("Pillow");
         System.out.println(groceries.containsAll(list2));
 
     }

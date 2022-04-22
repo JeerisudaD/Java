@@ -26,7 +26,11 @@ Treemap :
 1) Data is sorted based on the natural order
 2) Insertion is slowest because of the sorting
 
-
+HashTable:
+    IS a thread safe data means it can handle multiple insertions and retrievals at the
+    same time from multiple CPU cores but because of thread safety feature it is also
+    very slow so if you are sure that you will never write multithreading code never
+     use it.
 
 
 
